@@ -28,9 +28,10 @@ CREATE TABLE
         order_date DATE
     );
 
-CREATE DATABASE Order_Details (
-    orderdetailid INT PRIMARY KEY order_id FOREIGN KEY REFERENCES Orders (order_id),
-    FOREIGN KEY (book_id) REFERENCES Books (book_id),
-    FOREIGN KEY (order_id) REFERENCES Orders (order_id),
-    quantity DOUBLE
-);
+CREATE TABLE
+    Order_Details (
+        orderdetailid INT PRIMARY KEY order_id FOREIGN KEY REFERENCES Orders (order_id),
+        FOREIGN KEY (book_id) REFERENCES Books (book_id),
+        FOREIGN KEY (order_id) REFERENCES Orders (order_id),
+        quantity DOUBLE
+    );
