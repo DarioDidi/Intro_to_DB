@@ -56,6 +56,7 @@ CREATE TABLE
 --     quantity DOUBLE
 CREATE DATABASE Order_Details (
     orderdetailid INT PRIMARY KEY order_id FOREIGN KEY REFERENCES Orders (order_id),
-    book_id FOREIGN KEY REFERENCES Books (book_id),
+    -- book_id FOREIGN KEY REFERENCES Books (book_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id),
     quantity DOUBLE
 );
