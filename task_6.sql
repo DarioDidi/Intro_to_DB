@@ -7,7 +7,7 @@
 --   ('Miranda', 126, 'Bristol Office');
 
 INSERT INTO
-    Customer (
+    customer (
         customer_id,
         customer_name,
         email,
