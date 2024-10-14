@@ -5,9 +5,7 @@
 --   ('Jane', 124, 'Lloyds Office'),
 --   ('Billy', 125, 'London Office'),
 --   ('Miranda', 126, 'Bristol Office');
-
-INSERT INTO
-    customer (
+INSERT INTO customer (
         customer_id,
         customer_name,
         email,
