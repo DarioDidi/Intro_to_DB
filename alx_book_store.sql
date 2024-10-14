@@ -1,4 +1,5 @@
-CREATE DATABASE  iF NOT EXISTS alx_book_store;
+-- CREATE DATABASE  iF NOT EXISTS alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 --     -- book_id (Primary Key)
 --     -- title VARCHAR(130)
