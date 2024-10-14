@@ -4,8 +4,5 @@
 
 DECLARE @mydb NVARCHAR(50);
 set @mydb ='alx_book_store';
-USE @mydb
-GO 
-SELECT *
-FROM sys.Tables
-GO
+USE @mydb;
+SHOW TABLES;
