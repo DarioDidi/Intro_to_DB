@@ -19,7 +19,7 @@ CREATE TABLE
 --     author_id (Primary Key)
 --     author_name VARCHAR(215)
 CREATE TABLE
-    Author (
+    Authors (
         author_id INT PRIMARY KEY,
         author_name VARCHAR(215)
     );
